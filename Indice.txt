@@ -1,0 +1,19 @@
+Bubble Sort: 
+    Compara por parejas, y en cada iteracion realmente solo organiza un numero en su posicion ideal
+
+
+Merge Sort:
+    Mejor para organizar arrays con gran numero de elementos
+
+
+Bellman-Ford Algorithm:
+    Necesario cuando el grafo puede tener costos negativos o cuando es crucial detectar ciclos de costo negativo
+
+Dijkstra's Algorithm: 
+    Ideal para encontrar la ruta mas corta en redes con costos positivos
+
+
+A (A-star) Algorithm
+Floyd-Warshall Algorithm
+Breadth-First Search (BFS)
+Depth-First Search (DFS)

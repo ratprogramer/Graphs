@@ -1,0 +1,104 @@
+1. Fundamentos de Grafos
+Qué es un grafo: Aprende qué son los grafos, sus componentes (nodos/vértices y aristas), y cómo se representan.
+
+Temas clave:
+    Nodos (vértices) y Aristas (bordes):
+        los nodos son los puntos de interes en este caso a,b,c,d son los nodos, mientras que las 'vias' que los conectan son las aristas.  a----b
+                          |    |
+                          c----d
+        
+
+    Grafos dirigidos vs. no dirigidos:
+        Los grafos no dirigidos son doble via, mientras que los dirigidos tienen conecciones en una sola direccion
+        A ---> B                          A ---- B
+         ^    /   -> grafo dirigido        \    /  -> grafo no dirigido
+          \  /                              \  /
+            C                                C
+
+
+    Grafos ponderados vs. no ponderados:
+        Los grafos ponderados son aquellos que tienen un peso o valor en sus arista, mientras que los no ponderados, solo son conecciones de nodos atravez de aristas sin ningun valor asignado
+         A -- B                     A --(5)-- B
+         |       -> No ponderado    |           -> ponderado   
+         |                         (3)  
+         C                          C
+
+
+    Recursos sugeridos:
+    Videos de YouTube sobre introducción a grafos.
+    Artículos básicos sobre teoría de grafos.
+Ejercicios:
+
+Representar un grafo como un diagrama.
+Crear grafos en código usando matrices de adyacencia o listas de adyacencia.
+2. Recorridos en Grafos
+Recorrido en profundidad (DFS) y Recorrido en anchura (BFS): Estas son dos formas clave de explorar grafos.
+Temas clave:
+Algoritmo DFS (Depth-First Search)
+Algoritmo BFS (Breadth-First Search)
+Usos y diferencias entre ambos.
+Recursos sugeridos:
+Explicaciones y ejemplos visuales de DFS y BFS.
+Implementaciones en JavaScript o cualquier lenguaje de programación.
+Ejercicios:
+Implementar DFS y BFS en un grafo pequeño.
+Practicar con problemas sencillos de búsqueda en grafos.
+3. Estructuras de Datos
+Listas de adyacencia y matrices de adyacencia: Aprende a representar grafos de manera eficiente en código.
+Temas clave:
+Diferencias entre listas y matrices de adyacencia.
+Ventajas y desventajas de cada una según el tipo de grafo.
+Recursos sugeridos:
+Tutoriales de implementación en JavaScript o Python.
+Ejercicios:
+Implementar grafos con ambas representaciones.
+Crear funciones para agregar nodos, agregar aristas, y recorrer el grafo.
+4. Algoritmos Greedy
+Concepto de Algoritmos Voraces (Greedy Algorithms): Muchos algoritmos de grafos, como Dijkstra, siguen este enfoque.
+
+Temas clave:
+¿Qué es un algoritmo greedy?
+Casos en los que este tipo de enfoque es útil.
+Recursos sugeridos:
+Videos o artículos sobre algoritmos greedy.
+Ejemplos básicos de problemas que se resuelven con este enfoque.
+Ejercicios:
+
+Resolver problemas clásicos como "el problema de la mochila" con un enfoque greedy.
+5. Algoritmos de Caminos Más Cortos
+Algoritmo de Dijkstra: Una vez que entiendas los conceptos anteriores, puedes abordar el algoritmo de Dijkstra.
+Temas clave:
+Explicación detallada del algoritmo.
+Cómo utiliza una cola de prioridad o una heap para encontrar caminos más cortos.
+Aplicaciones reales.
+Recursos sugeridos:
+Videos que expliquen el algoritmo paso a paso.
+Implementación en JavaScript o cualquier otro lenguaje.
+Ejercicios:
+Implementar Dijkstra en un grafo pequeño.
+Resolver problemas con diferentes grafos.
+6. Estructuras de Datos Avanzadas
+Colas de prioridad (Priority Queues) y Montículos (Heaps): Estas estructuras son clave para optimizar Dijkstra.
+
+Temas clave:
+¿Qué es una cola de prioridad?
+¿Cómo funciona un heap?
+Implementación de un heap binario.
+Recursos sugeridos:
+Artículos sobre colas de prioridad y montículos.
+Implementaciones simples en código.
+Ejercicios:
+
+Crear un heap desde cero.
+Integrar un heap en tu implementación de Dijkstra.
+7. Práctica y Problemas
+Una vez que domines estos conceptos, puedes practicar con problemas de grafos en plataformas como LeetCode, Codeforces, o HackerRank. Aquí puedes aplicar el algoritmo de Dijkstra y otros algoritmos relacionados.
+Resumen de la Ruta de Estudio:
+Fundamentos de Grafos: Nodos, aristas, grafos dirigidos/no dirigidos, ponderados.
+Recorridos en Grafos: DFS y BFS.
+Estructuras de Datos para Grafos: Listas y matrices de adyacencia.
+Algoritmos Greedy: Introducción a algoritmos voraces.
+Dijkstra: Algoritmo de caminos más cortos.
+Estructuras de Datos Avanzadas: Colas de prioridad y heaps.
+Práctica: Problemas en plataformas de programación.
+Con estos temas dominados, estarás en una excelente posición para entender y aplicar el algoritmo de Dijkstra de manera efectiva.
