@@ -7,13 +7,11 @@ Merge Sort:
 
 
 Bellman-Ford Algorithm:
-    Necesario cuando el grafo puede tener costos negativos o cuando es crucial detectar ciclos de costo negativo
+    Ideal para encontrar la ruta mas corta en redes con costos positivos de un nodo, a cualquier otro
+    aceptando costos negativos
 
 Dijkstra's Algorithm: 
-    Ideal para encontrar la ruta mas corta en redes con costos positivos
+    Ideal para encontrar la ruta mas corta en redes con costos positivos de un nodo, a cualquier otro
 
-
-A (A-star) Algorithm
-Floyd-Warshall Algorithm
-Breadth-First Search (BFS)
-Depth-First Search (DFS)
+Held-Karp:
+    Ideal para buscar la ruta más corta para visitar un conjunto de nodos y regresar al punto de inicio, recorriendo cada nodo una vez
